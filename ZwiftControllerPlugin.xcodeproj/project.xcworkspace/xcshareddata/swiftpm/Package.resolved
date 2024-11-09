@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "keysender",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jordanbaird/KeySender",
+      "state" : {
+        "revision" : "99584bf1a03ab600cc44be89a2dcd98b2dbeb9de",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}

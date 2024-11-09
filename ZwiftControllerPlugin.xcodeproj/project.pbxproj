@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C218367C2B0183D900953CA0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C218367B2B0183D900953CA0 /* main.swift */; };
+		C21836832B0183F800953CA0 /* ControllerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21836822B0183F800953CA0 /* ControllerListener.swift */; };
+		C21836852B01845900953CA0 /* XboxGamepadButtonPressPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21836842B01845900953CA0 /* XboxGamepadButtonPressPublisher.swift */; };
+		C21836872B01846700953CA0 /* XboxButtonPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21836862B01846700953CA0 /* XboxButtonPress.swift */; };
+		C21836892B01886B00953CA0 /* XboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21836882B01886B00953CA0 /* XboxButton.swift */; };
+		C28C4A912B2728ED00BC25D5 /* KeySender in Frameworks */ = {isa = PBXBuildFile; productRef = C28C4A902B2728ED00BC25D5 /* KeySender */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C21836762B0183D900953CA0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C21836782B0183D900953CA0 /* ZwiftControllerPlugin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZwiftControllerPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C218367B2B0183D900953CA0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C21836822B0183F800953CA0 /* ControllerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerListener.swift; sourceTree = "<group>"; };
+		C21836842B01845900953CA0 /* XboxGamepadButtonPressPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxGamepadButtonPressPublisher.swift; sourceTree = "<group>"; };
+		C21836862B01846700953CA0 /* XboxButtonPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxButtonPress.swift; sourceTree = "<group>"; };
+		C21836882B01886B00953CA0 /* XboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21836752B0183D900953CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28C4A912B2728ED00BC25D5 /* KeySender in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C218366F2B0183D900953CA0 = {
+			isa = PBXGroup;
+			children = (
+				C218367A2B0183D900953CA0 /* ZwiftControllerPlugin */,
+				C21836792B0183D900953CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21836792B0183D900953CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21836782B0183D900953CA0 /* ZwiftControllerPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C218367A2B0183D900953CA0 /* ZwiftControllerPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C218367B2B0183D900953CA0 /* main.swift */,
+				C21836822B0183F800953CA0 /* ControllerListener.swift */,
+				C21836842B01845900953CA0 /* XboxGamepadButtonPressPublisher.swift */,
+				C21836882B01886B00953CA0 /* XboxButton.swift */,
+				C21836862B01846700953CA0 /* XboxButtonPress.swift */,
+			);
+			path = ZwiftControllerPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21836772B0183D900953CA0 /* ZwiftControllerPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C218367F2B0183D900953CA0 /* Build configuration list for PBXNativeTarget "ZwiftControllerPlugin" */;
+			buildPhases = (
+				C21836742B0183D900953CA0 /* Sources */,
+				C21836752B0183D900953CA0 /* Frameworks */,
+				C21836762B0183D900953CA0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZwiftControllerPlugin;
+			packageProductDependencies = (
+				C28C4A902B2728ED00BC25D5 /* KeySender */,
+			);
+			productName = ZwiftControllerPlugin;
+			productReference = C21836782B0183D900953CA0 /* ZwiftControllerPlugin */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21836702B0183D900953CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C21836772B0183D900953CA0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C21836732B0183D900953CA0 /* Build configuration list for PBXProject "ZwiftControllerPlugin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C218366F2B0183D900953CA0;
+			packageReferences = (
+				C28C4A8F2B2728EC00BC25D5 /* XCRemoteSwiftPackageReference "KeySender" */,
+			);
+			productRefGroup = C21836792B0183D900953CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21836772B0183D900953CA0 /* ZwiftControllerPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21836742B0183D900953CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21836852B01845900953CA0 /* XboxGamepadButtonPressPublisher.swift in Sources */,
+				C218367C2B0183D900953CA0 /* main.swift in Sources */,
+				C21836872B01846700953CA0 /* XboxButtonPress.swift in Sources */,
+				C21836832B0183F800953CA0 /* ControllerListener.swift in Sources */,
+				C21836892B01886B00953CA0 /* XboxButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C218367D2B0183D900953CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C218367E2B0183D900953CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C21836802B0183D900953CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JWB953S2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C21836812B0183D900953CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JWB953S2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21836732B0183D900953CA0 /* Build configuration list for PBXProject "ZwiftControllerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C218367D2B0183D900953CA0 /* Debug */,
+				C218367E2B0183D900953CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C218367F2B0183D900953CA0 /* Build configuration list for PBXNativeTarget "ZwiftControllerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21836802B0183D900953CA0 /* Debug */,
+				C21836812B0183D900953CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C28C4A8F2B2728EC00BC25D5 /* XCRemoteSwiftPackageReference "KeySender" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jordanbaird/KeySender";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C28C4A902B2728ED00BC25D5 /* KeySender */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C28C4A8F2B2728EC00BC25D5 /* XCRemoteSwiftPackageReference "KeySender" */;
+			productName = KeySender;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C21836702B0183D900953CA0 /* Project object */;
+}
